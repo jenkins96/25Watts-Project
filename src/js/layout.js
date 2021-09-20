@@ -16,7 +16,6 @@ const Layout = () => {
 
 	return (
 		<Fragment>
-			<Header />
 			<Home />
 			<About />
 			<Products />
