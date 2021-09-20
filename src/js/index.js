@@ -8,8 +8,9 @@ import "bootstrap";
 //include your index.scss file into the bundle
 import "../styles/index.scss";
 
+import Layout from "./layout";
 //import your own components
-import Home from "./component/home.jsx";
+//import Home from "./component/home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Layout />, document.querySelector("#app"));
