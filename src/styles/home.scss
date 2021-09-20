@@ -57,8 +57,20 @@ h2, p, a{
    font-size: 1em;
    color: hsl(0, 100%, 100%);
  }
-button{
-  border-radius: 50%;
+.btn{
+  border-radius: 25px;
   color: hsl(0, 100%, 100%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  background-color: hsl(24,74%,53%);
+  padding: .6em 2em;
+  :hover{
+    color:hsl(0, 0, 24%);
+  }
 } 
+
+hr{
+  border: solid 2px hsl(24,74%,53%);
+}
   

@@ -29,7 +29,9 @@ export const Home = () => (
 					</li>
 				</ul>
 			</div>
+			<hr></hr>
 		</nav>
+
 		<div className="row">
 			<div className="col-md-6 mainContent">
 				<h2 className="mainTitle">
@@ -39,7 +41,7 @@ export const Home = () => (
 					Sed ut percpiciatis unde omnis iste natus error sit
 					voluptatem accusantium doloremque
 				</p>
-				<button type="button" className="btn btn-primary">
+				<button type="button" className="btn">
 					Read More
 				</button>
 			</div>
