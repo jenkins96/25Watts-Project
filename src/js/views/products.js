@@ -1,8 +1,8 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
-//import "../../styles/dropDown.scss";
+//import "../../styles/slider.scss";
 
-export const DropDown = () => (
+export const Products = () => (
 	<div className="text-center mt-5">
 		<h1>Hello Rigo!</h1>
 		<p>

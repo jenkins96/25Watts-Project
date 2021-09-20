@@ -1,8 +1,8 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
-//import "../../styles/slider.scss";
+//import "../../styles/dropDown.scss";
 
-export const Slider = () => (
+export const Services = () => (
 	<div className="text-center mt-5">
 		<h1>Hello Rigo!</h1>
 		<p>
