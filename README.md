@@ -1,41 +1,102 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
+<br/>
+<p align="center">
+  <a href="https://github.com/jenkins96/25Watts-Project">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
+
+  <h3 align="center">25 Watts</h3>
+
+  <p align="center">
+    Every Project Teach Us Something!
+    <br/>
+    <br/>
+    <a href="https://github.com/jenkins96/25Watts-Project"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/jenkins96/25Watts-Project">View Demo</a>
+    .
+  </p>
 </p>
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+![Downloads](https://img.shields.io/github/downloads/jenkins96/25Watts-Project/total) ![Forks](https://img.shields.io/github/forks/jenkins96/25Watts-Project?style=social) 
 
-##### Download the boilerplate using git
+## Table Of Contents
 
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Authors](#authors)
+
+
+## About The Project
+
+![Screen Shot](images/screenshot.png)
+
+There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+
+Here's why:
+
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should element DRY principles to the rest of your life :smile:
+
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
+
+## Built With
+
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+
+* npm
+
+```sh
+npm install npm@latest -g
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
+
+### Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+
+2. Clone the repo
+
+```sh
+git clone https://github.com/your_username_/Project-Name.git
 ```
 
-##### and install the npm package:
+3. Install NPM packages
+
+```sh
+npm install
 ```
-$ npm install
+
+4. Enter your API in `config.js`
+
+```JS
+const API_KEY = 'ENTER YOUR API';
 ```
 
-## Start coding!
+## Usage
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-## Publish your website!
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+## Authors
 
-## Other features
+* **Adrian Jenkins** - ** - [Adrian Jenkins](https://github.com/jenkins96/) - **
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
