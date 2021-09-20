@@ -1,17 +1,16 @@
 import React, { Fragment } from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
 import logo from "../../img/top-logo.png";
 import "../../styles/home.scss";
 
 export const Home = () => (
 	<div className="bg container-fluid">
 		<nav className="row">
-			<div className="col-xl-6 col-lg-6 col-md-6 d-flex justify-content-start">
+			<div className="col-xl-4 col-lg-4 col-md-4 d-flex justify-content-start">
 				<a>
 					<object id="logo" type="image/svg+xml" data={logo}></object>
 				</a>
 			</div>
-			<div className="col-xl-6 col-lg-6 col-md-6 d-flex justify-content-end">
+			<div className="col-xl-8 col-lg-8 col-md-8 d-flex justify-content-end">
 				<ul>
 					<li>
 						<a href="#">Home</a>
@@ -31,7 +30,20 @@ export const Home = () => (
 				</ul>
 			</div>
 		</nav>
-		<h1>Home</h1>
+		<div className="row">
+			<div className="col-md-6 mainContent">
+				<h2 className="mainTitle">
+					Sed ut percpiciatis unde omnis iste natus
+				</h2>
+				<p className="mainP">
+					Sed ut percpiciatis unde omnis iste natus error sit
+					voluptatem accusantium doloremque
+				</p>
+				<button type="button" className="btn btn-primary">
+					Read More
+				</button>
+			</div>
+		</div>
 	</div>
 );
 

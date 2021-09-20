@@ -16,7 +16,9 @@
   nav{
     padding-top: 2em;
   }
-
+h2, p, a{
+  color: hsl(0, 100%, 100%);
+}
   ul > li{
     list-style-type: none;
     display: inline;
@@ -25,7 +27,6 @@
     > a{
     font-family: 'Roboto';
     font-weight: 500;
-    color: hsl(0, 100%, 100%);
     font-size: 1em;
     text-decoration: none;
     }
@@ -35,9 +36,29 @@
     
    
   }
-  #logo{
+  #logo, .mainContent{
     margin-left: 5em;
+   
   }
- 
- 
+  .mainContent{
+    margin-top: 5em;
+  }
+ .mainTitle{
+   font-size: 3em;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   padding-bottom: 1em;
+   color: hsl(0, 100%, 100%);
+ }
+ .mainP{
+   padding-bottom: 1em;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 1em;
+   color: hsl(0, 100%, 100%);
+ }
+button{
+  border-radius: 50%;
+  color: hsl(0, 100%, 100%);
+} 
   
