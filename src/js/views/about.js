@@ -1,15 +1,13 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
-//import "../../styles/helpingBusiness.scss";
+import "../../styles/about.scss";
+//  font-family: 'Roboto', sans-serif;
+//  font-family: 'Poppins', sans-serif;
 
 export const About = () => (
-	<div className="text-center mt-5">
-		<h1>Hello Rigo!</h1>
-		<p>
-			<img src={rigoImage} />
-		</p>
-		<a href="#" className="btn btn-success">
-			If you see this green button, bootstrap is working
-		</a>
+	<div className="aboutBg container-fluid col-md-6 offset-2">
+		<div className="mainContentAbout">
+			<h2 className="mainTitleAbout">We Help Businesses</h2>
+			<h2 className="mainTitleAbout colorTitle">Grow and Innovate</h2>
+		</div>
 	</div>
 );
