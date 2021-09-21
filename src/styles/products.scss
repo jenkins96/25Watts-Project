@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap');
+//  font-family: 'Roboto', sans-serif;
+//  font-family: 'Poppins', sans-serif;
+.rowProducts{
+    height: 768px;
+}
+.lightG{
+    background-color: hsl(100,12%,95%);
+}
+.darkG{
+    background-color: hsl(103,10%,87%);
+}
+.bgProducts{
+    position:relative;
+}
+
+.bgImage{
+    height: 552px;
+    width: 966px;
+    background: url("../img/section3-image.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left: 150px;
+    top: 112px;
+    
+}
+.overlay{
+    background-color: hsl(24,74%,53%);
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
+    height: 304px;
+}
+p:first-child {
+    margin-top: 30px;
+  }
+.mainTitleProducts{
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-bottom: 1em;
+    color: hsl(0, 100%, 100%);
+    margin-left: 50px;
+  }
+.mainPProducts{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: hsl(0,100%, 100%);
+    margin-left: 50px;
+  }
+  #leftArr{
+    position: absolute;
+    right: 49.3px;
+    bottom: 31px;
+  }
+  #rightArr{
+    position: absolute;
+    right: 20px;
+    bottom: 31px;
+  }
+ 
