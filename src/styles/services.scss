@@ -13,3 +13,26 @@
     background: url("../img/section4-image.png") no-repeat center;
     background-size: cover;
 }
+
+#accordionExample{
+    position:relative;
+    top: 144px;
+    left: 101px;
+}
+.servicesP{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color:hsl(213, 5%, 39%);
+    font-weight: 400;
+}
+.servicestitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color:hsl(213, 5%, 39%);
+    font-weight: 500;
+}
+.accordion-button{
+    background-color: hsl(0, 0%, 89%);
+}
+
+
